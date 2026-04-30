@@ -10,7 +10,7 @@ export function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1600&q=80&auto=format&fit=crop')",
+            "url('/praxis-1.jpg')",
         }}
       />
       {/* Gradient overlay */}
@@ -39,18 +39,18 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3">
             <a
-              href="tel:0442235900"
+              href="tel:0430000000"
               className={cn(
                 buttonVariants({ size: "lg" }),
                 "bg-primary hover:bg-primary/90 text-white shadow-xl shadow-primary/30 h-14 text-base px-8 flex items-center gap-2.5 justify-center"
               )}
             >
               <Phone className="h-5 w-5" />
-              044 223 59 00
+              043 000 00 00
             </a>
 
             <a
-              href="https://wa.me/41442235900"
+              href="https://wa.me/41430000000"
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
@@ -63,10 +63,10 @@ export function Hero() {
             </a>
 
             <a
-              href="mailto:info@hno-wiedikon.ch"
+              href="mailto:info@beispiel-praxis.ch"
               className={cn(
                 buttonVariants({ variant: "outline", size: "lg" }),
-                "border-white/40 text-white hover:bg-white/10 backdrop-blur-sm h-14 text-base px-8 flex items-center gap-2.5 justify-center"
+                "border-white/40 text-black hover:bg-white/10 backdrop-blur-sm h-14 text-base px-8 flex items-center gap-2.5 justify-center"
               )}
             >
               <Mail className="h-5 w-5" />

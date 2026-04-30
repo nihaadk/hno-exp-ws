@@ -51,14 +51,14 @@ export default async function TeamMemberPage({ params }: Props) {
             Zurück zum Team
           </a>
           <a
-            href="tel:0442235900"
+            href="tel:0430000000"
             className={cn(
               buttonVariants({ size: "sm" }),
               "bg-primary hover:bg-primary/90 text-white flex items-center gap-1.5 rounded-full px-4"
             )}
           >
             <Phone className="h-3.5 w-3.5" />
-            <span className="hidden sm:inline">044 223 59 00</span>
+            <span className="hidden sm:inline">043 000 00 00</span>
             <span className="sm:hidden">Anrufen</span>
           </a>
         </div>
@@ -121,7 +121,7 @@ export default async function TeamMemberPage({ params }: Props) {
 
               <div className="flex gap-3 mt-2">
                 <a
-                  href="tel:0442235900"
+                  href="tel:0430000000"
                   className={cn(
                     buttonVariants({ size: "sm" }),
                     "bg-primary hover:bg-primary/90 text-white flex items-center gap-1.5 rounded-full"
@@ -257,14 +257,14 @@ export default async function TeamMemberPage({ params }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href="tel:0442235900"
+              href="tel:0430000000"
               className="inline-flex items-center gap-2 justify-center px-6 py-3 rounded-xl bg-white text-primary font-semibold text-sm hover:bg-white/90 transition-colors"
             >
               <Phone className="h-4 w-4" />
-              044 223 59 00
+              043 000 00 00
             </a>
             <a
-              href="https://wa.me/41442235900"
+              href="https://wa.me/41430000000"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 justify-center px-6 py-3 rounded-xl bg-white/10 text-white border border-white/20 font-semibold text-sm hover:bg-white/20 transition-colors"

@@ -22,16 +22,16 @@ export function FooterSection() {
           </div>
           <div className="flex flex-col sm:items-end gap-1">
             <a
-              href="tel:0442235900"
+              href="tel:0430000000"
               className="text-white/80 hover:text-white text-sm transition-colors"
             >
-              044 223 59 00
+              043 000 00 00
             </a>
             <a
-              href="mailto:info@hno-wiedikon.ch"
+              href="mailto:info@beispiel-praxis.ch"
               className="text-white/60 hover:text-white text-sm transition-colors"
             >
-              info@hno-wiedikon.ch
+              info@beispiel-praxis.ch
             </a>
           </div>
         </div>

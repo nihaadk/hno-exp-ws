@@ -67,7 +67,7 @@ export function ServicesSection() {
           {services.map((s) => (
             <div
               key={s.title}
-              className="group p-6 rounded-2xl border border-border bg-white hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
+              className="group p-6 rounded-2xl border border-primary/10 bg-accent/40 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
             >
               <div
                 className={`w-12 h-12 rounded-2xl flex items-center justify-center mb-5 ${s.color}`}

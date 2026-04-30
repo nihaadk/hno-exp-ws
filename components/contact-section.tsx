@@ -29,17 +29,17 @@ export function ContactSection() {
             {/* Quick actions */}
             <div className="flex flex-col gap-3">
               <a
-                href="tel:0442235900"
+                href="tel:0430000000"
                 className={cn(
                   buttonVariants({ size: "lg" }),
                   "w-full bg-primary hover:bg-primary/90 h-14 text-base flex items-center gap-2 justify-center"
                 )}
               >
                 <Phone className="h-5 w-5" />
-                Jetzt anrufen · 044 223 59 00
+                Jetzt anrufen · 043 000 00 00
               </a>
               <a
-                href="https://wa.me/41442235900"
+                href="https://wa.me/41430000000"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
@@ -55,7 +55,7 @@ export function ContactSection() {
             <Separator />
 
             {/* Details */}
-            <Card className="border-border shadow-none bg-muted/30">
+            <Card className="border-primary/10 shadow-none bg-accent/40">
               <CardContent className="p-5 flex flex-col gap-4">
                 <div className="flex items-start gap-3">
                   <MapPin className="h-4 w-4 text-primary shrink-0 mt-0.5" />
@@ -71,10 +71,10 @@ export function ContactSection() {
                   <div>
                     <p className="text-sm font-medium">Telefon</p>
                     <a
-                      href="tel:0442235900"
+                      href="tel:0430000000"
                       className="text-sm text-primary hover:underline"
                     >
-                      044 223 59 00
+                      043 000 00 00
                     </a>
                   </div>
                 </div>
@@ -100,10 +100,10 @@ export function ContactSection() {
                 </AccordionTrigger>
                 <AccordionContent>
                   <a
-                    href="mailto:info@hno-wiedikon.ch"
+                    href="mailto:info@beispiel-praxis.ch"
                     className="text-primary hover:underline text-sm"
                   >
-                    info@hno-wiedikon.ch
+                    info@beispiel-praxis.ch
                   </a>
                 </AccordionContent>
               </AccordionItem>
@@ -116,10 +116,10 @@ export function ContactSection() {
                 </AccordionTrigger>
                 <AccordionContent>
                   <a
-                    href="mailto:hno-wiedikon@hin.ch"
+                    href="mailto:praxis@hin.ch"
                     className="text-primary hover:underline text-sm"
                   >
-                    hno-wiedikon@hin.ch
+                    praxis@hin.ch
                   </a>
                   <p className="text-xs text-muted-foreground mt-1">
                     Für Zuweisungen und ärztliche Korrespondenz via HIN-Mail.

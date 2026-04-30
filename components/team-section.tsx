@@ -26,10 +26,10 @@ export function TeamSection() {
             <a
               key={member.slug}
               href={`/team/${member.slug}`}
-              className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 flex flex-col"
+              className="group bg-accent/50 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 flex flex-col"
             >
               {/* Photo */}
-              <div className="relative w-full aspect-[4/3] overflow-hidden">
+              <div className="relative w-full aspect-[3/4] overflow-hidden">
                 <Image
                   src={member.photo}
                   alt={member.name}

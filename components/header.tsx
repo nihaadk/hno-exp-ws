@@ -16,7 +16,7 @@ import { Menu, MessageCircle, Phone, X } from "lucide-react";
 const navLinks = [
   { label: "Team", href: "#team" },
   { label: "Leistungen", href: "#leistungen" },
-  { label: "Praxis", href: "#praxis" },
+  { label: "Praxis", href: "/praxis" },
   { label: "Kontakt", href: "#kontakt" },
 ];
 
@@ -25,19 +25,16 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-border/60 shadow-sm">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-4 h-20 flex items-center justify-between gap-4">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5 shrink-0">
+        <a href="#" className="flex items-center shrink-0">
           <Image
             src="/logo.png"
             alt="HNO Wiedikon Logo"
-            width={36}
-            height={36}
+            width={150}
+            height={150}
             className="object-contain"
           />
-          <span className="font-bold text-foreground text-base leading-tight hidden sm:inline">
-            HNO <span className="text-primary">Wiedikon</span>
-          </span>
         </a>
 
         {/* Desktop nav */}
@@ -57,14 +54,14 @@ export function Header() {
         {/* Phone CTA — always visible */}
         <div className="flex items-center gap-2">
           <a
-            href="tel:0442235900"
+            href="tel:0430000000"
             className={cn(
               buttonVariants({ size: "sm" }),
               "bg-primary hover:bg-primary/90 text-white flex items-center gap-1.5 rounded-full px-4"
             )}
           >
             <Phone className="h-3.5 w-3.5" />
-            <span className="hidden sm:inline">044 223 59 00</span>
+            <span className="hidden sm:inline">043 000 00 00</span>
             <span className="sm:hidden">Anrufen</span>
           </a>
 
@@ -83,17 +80,14 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="right" className="w-80 p-0">
               <SheetHeader className="p-6 pb-4 border-b border-border">
-                <SheetTitle className="flex items-center gap-2.5">
+                <SheetTitle className="flex items-center">
                   <Image
                     src="/logo.png"
                     alt="HNO Wiedikon"
-                    width={28}
-                    height={28}
+                    width={48}
+                    height={48}
                     className="object-contain"
                   />
-                  <span className="font-bold text-foreground">
-                    HNO <span className="text-primary">Wiedikon</span>
-                  </span>
                 </SheetTitle>
               </SheetHeader>
 
@@ -112,17 +106,17 @@ export function Header() {
 
               <div className="p-4 pt-2 flex flex-col gap-3 border-t border-border mt-2">
                 <a
-                  href="tel:0442235900"
+                  href="tel:0430000000"
                   className={cn(
                     buttonVariants({ size: "lg" }),
                     "w-full bg-primary hover:bg-primary/90 text-white flex items-center gap-2 justify-center rounded-xl h-12"
                   )}
                 >
                   <Phone className="h-4 w-4" />
-                  044 223 59 00
+                  043 000 00 00
                 </a>
                 <a
-                  href="https://wa.me/41442235900"
+                  href="https://wa.me/41430000000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(

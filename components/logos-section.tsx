@@ -27,14 +27,14 @@ function LogoRow({
       {logos.map((logo) => (
         <div
           key={logo.name}
-          className="relative h-10 w-28 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+          className="relative h-16 w-44 opacity-90 hover:opacity-100 hover:scale-105 transition-all duration-300"
         >
           <Image
             src={logo.src}
             alt={logo.name}
             fill
             className="object-contain"
-            sizes="112px"
+            sizes="176px"
           />
         </div>
       ))}
